@@ -1,0 +1,15 @@
+.card-container{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, orange, yellow);
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 20px;
+    cursor: pointer;
+    transform: translate(0);
+    transition: transform 0.3s ease-in-out;
+    max-width: 200px;
+}
+.card-container:hover{
+    transform: scale(1.05);
+}
